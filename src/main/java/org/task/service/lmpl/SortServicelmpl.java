@@ -3,12 +3,18 @@ package org.task.service.lmpl;
 import org.task.entity.IntArray;
 import org.task.service.SortService;
 import org.task.exception.ArrayException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SortServicelmpl implements SortService {
 
+    public static final Logger logger = LogManager.getLogger(SortServicelmpl.class);
+
     @Override
     public IntArray bubbleSort(IntArray array) throws ArrayException {
+        logger.info("Попытка сортировки массива пузырьком");
         if (array == null) {
+            logger.error("Ошибка: Массив не может быть null.");
             throw new ArrayException("Массив не может быть null.");
         }
 
@@ -22,13 +28,16 @@ public class SortServicelmpl implements SortService {
                 }
             }
         }
+        logger.info("Массив успешно отсортирован пузырьком");
 
         return array;
     }
 
     @Override
     public IntArray selectionSort(IntArray array) throws ArrayException {
+        logger.info("Попытка сортировки массива пузырьком");
         if (array == null) {
+            logger.error("Ошибка: Массив не может быть null.");
             throw new ArrayException("Массив не может быть null.");
         }
 
@@ -44,6 +53,7 @@ public class SortServicelmpl implements SortService {
             array.setElement(minIndex, array.getElement(i));
             array.setElement(i, array.getElement(buffer));
         }
+        logger.info("Массив успешно отсортирован выбором");
 
         return array;
     }

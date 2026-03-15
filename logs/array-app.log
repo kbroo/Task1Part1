@@ -1219,3 +1219,6 @@
 2026-03-15 12:44:33.710 [main] INFO  org.task.entity.IntArray - Создан новый массив длиной: 6
 2026-03-15 12:44:33.710 [main] INFO  org.task.service.impl.MathOperationsServiceImpl - Попытка нахождения минимального элемента массива.
 2026-03-15 12:44:33.711 [main] INFO  org.task.service.impl.MathOperationsServiceImpl - Успешное нахождение минимального элемента массива.
+2026-03-15 13:59:58.797 [main] INFO  org.task.reader.impl.FileReaderImpl - Попытка считать данные из файла.
+2026-03-15 14:01:08.807 [main] INFO  org.task.reader.impl.FileReaderImpl - Попытка считать данные из файла.
+2026-03-15 14:01:08.813 [main] INFO  org.task.reader.impl.FileReaderImpl - Данные успешно считаны из файла.

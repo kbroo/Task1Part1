@@ -5,6 +5,6 @@ import org.task.exception.ArrayException;
 
 public interface ArrayFactory {
 
-    IntArray createIntArray(int[] array, String name) throws ArrayException;
+    IntArray createIntArray(int[] array) throws ArrayException;
 
 }

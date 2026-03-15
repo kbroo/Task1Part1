@@ -1,4 +1,4 @@
-package org.task.service.lmpl;
+package org.task.service.impl;
 
 import org.task.entity.IntArray;
 import org.task.service.MathOperationsService;
@@ -6,9 +6,9 @@ import org.task.exception.ArrayException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class MathOperationsServicelmpl implements MathOperationsService {
+public class MathOperationsServiceImpl implements MathOperationsService {
 
-    public static final Logger logger = LogManager.getLogger(MathOperationsServicelmpl.class);
+    public static final Logger logger = LogManager.getLogger(MathOperationsServiceImpl.class);
 
     @Override
     public int findMaxElement(IntArray array) throws ArrayException {

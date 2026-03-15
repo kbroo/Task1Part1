@@ -1,4 +1,4 @@
-package org.task.service.lmpl;
+package org.task.service.impl;
 
 import org.task.entity.IntArray;
 import org.task.service.SortService;
@@ -6,9 +6,9 @@ import org.task.exception.ArrayException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class SortServicelmpl implements SortService {
+public class SortServiceImpl implements SortService {
 
-    public static final Logger logger = LogManager.getLogger(SortServicelmpl.class);
+    public static final Logger logger = LogManager.getLogger(SortServiceImpl.class);
 
     @Override
     public IntArray bubbleSort(IntArray array) throws ArrayException {
@@ -20,11 +20,11 @@ public class SortServicelmpl implements SortService {
 
         int buffer;
         for (int j = 0; j < array.getLength()-1; j++) {
-            for(int i = array.getLength()-1; i >= 0; i++) {
-                if(array.getElement(i) > array.getElement(i-1)) {
+            for(int i = array.getLength()-1; i > 0; i--) {
+                if(array.getElement(i) < array.getElement(i-1)) {
                     buffer = array.getElement(i);
                     array.setElement(i, array.getElement(i-1));
-                    array.setElement(i-1, array.getElement(buffer));
+                    array.setElement(i-1, buffer);
                 }
             }
         }
@@ -35,7 +35,7 @@ public class SortServicelmpl implements SortService {
 
     @Override
     public IntArray selectionSort(IntArray array) throws ArrayException {
-        logger.info("Попытка сортировки массива пузырьком");
+        logger.info("Попытка сортировки массива выбором");
         if (array == null) {
             logger.error("Ошибка: Массив не может быть null.");
             throw new ArrayException("Массив не может быть null.");
@@ -49,9 +49,11 @@ public class SortServicelmpl implements SortService {
                     minIndex = j;
                 }
             }
-            buffer = array.getElement(minIndex);
-            array.setElement(minIndex, array.getElement(i));
-            array.setElement(i, array.getElement(buffer));
+            if(minIndex != i) {
+                buffer = array.getElement(minIndex);
+                array.setElement(minIndex, array.getElement(i));
+                array.setElement(i, buffer);
+            }
         }
         logger.info("Массив успешно отсортирован выбором");
 

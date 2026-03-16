@@ -1,8 +1,8 @@
 package org.task.entity;
 
-import org.task.exception.ArrayException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.task.exception.ArrayException;
 
 public class IntArray {
     private static final Logger logger = LogManager.getLogger(IntArray.class);
@@ -11,15 +11,14 @@ public class IntArray {
     private final int size;
 
     public IntArray(int[] array) throws ArrayException {
-        logger.info("Попытка создать массив.");
-        if(array == null) {
-            logger.error("Error: Передан несуществующий массив.");
-            throw new ArrayException("Массив не существует (null).");
+        logger.info("Attemp to create array.");
+        if (array == null) {
+            logger.error("Error: Was passed a non-existent array.");
+            throw new ArrayException("Array is not exist (null).");
         }
-
         this.array = array.clone();
         size = array.length;
-        logger.info("Создан новый массив длиной: {}", size);
+        logger.info("Create a new array with length: {}", size);
     }
 
     public int[] getArray() {
@@ -31,23 +30,22 @@ public class IntArray {
     }
 
     public int getElement(int index) throws ArrayException {
-        logger.info("Попытка получить элемент массива с индексом {}", index);
-        if(index < 0 || index >= array.length) {
-            logger.error("Передан индекс выходящий за пределы массива.");
-            throw new ArrayException("Передан индекс выходящий за пределы массива.");
+        logger.info("Attemp to get an array element with an index {}", index);
+        if (index < 0 || index >= array.length) {
+            logger.error("An index passed that is outside the array bounds. (getElement)");
+            throw new ArrayException("An index passed that is outside the array bounds.");
         }
-        logger.info("Получен элемент массива с индексом {}", index);
+        logger.info("Received array element with index {}", index);
         return array[index];
     }
 
     public void setElement(int index, int element) throws ArrayException {
-        logger.info("Попытка передать значение элементу массива с индексом {}", index);
-        if(index < 0 || index >= array.length) {
-            logger.error("Передан индекс выходящий за пределы массива.");
-            throw new ArrayException("Передан индекс выходящий за пределы массива.");
+        logger.info("Attemp to set an array element with an index {}", index);
+        if (index < 0 || index >= array.length) {
+            logger.error("An index passed that is outside the array bounds. (setElement)");
+            throw new ArrayException("An index passed that is outside the array bounds.");
         }
-        logger.info("Передано значение элементу массива с индексом {}", index);
+        logger.info("The value was passed to the array element with index {}", index);
         array[index] = element;
     }
-
 }

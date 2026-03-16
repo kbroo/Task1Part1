@@ -12,15 +12,15 @@ public class MathOperationsServiceImpl implements MathOperationsService {
 
     @Override
     public int findMaxElement(IntArray array) throws ArrayException {
-        logger.info("Попытка нахождения максимального элемента массива.");
+        logger.info("Attempt to find the maximum element of an array.");
         if(array == null) {
-            logger.error("Ошибка: Массив не может быть null.");
-            throw new ArrayException("Массив не может быть null.");
+            logger.error("Error: Array cannot be null. (findMaxElement)");
+            throw new ArrayException("Array cannot be null. (findMaxElement)");
         }
         int[] intArray = array.getArray();
         if(intArray.length == 0) {
-            logger.error("Ошибка: Передан пустой массив.");
-            throw new ArrayException("Нельзя найти максимальное значение в пустом массиве.");
+            logger.error("Error: Empty array passed. (findMaxElement)");
+            throw new ArrayException("Cannot find maximum value in empty array. (findMaxElement)");
         }
 
         int maxElelement = intArray[0];
@@ -30,21 +30,21 @@ public class MathOperationsServiceImpl implements MathOperationsService {
             }
         }
 
-        logger.info("Успешное нахождение максимального элемента массива.");
+        logger.info("Successfully finding the maximum element of an array.");
         return maxElelement;
     }
 
     @Override
     public int findMinElement(IntArray array) throws ArrayException {
-        logger.info("Попытка нахождения минимального элемента массива.");
+        logger.info("Attempt to find the minimum element of an array.");
         if(array == null) {
-            logger.error("Ошибка: Массив не может быть null.");
-            throw new ArrayException("Массив не может быть null.");
+            logger.error("Error: Array cannot be null. (findMinElement)");
+            throw new ArrayException("Array cannot be null. (findMinElement)");
         }
         int[] intArray = array.getArray();
         if(intArray.length == 0) {
-            logger.error("Ошибка: Передан пустой массив.");
-            throw new ArrayException("Нельзя найти минимальное значение в пустом массиве.");
+            logger.error("Error: Empty array passed. (findMinElement)");
+            throw new ArrayException("Cannot find minimum value in empty array. (findMinElement)");
         }
 
         int minElement = intArray[0];
@@ -54,21 +54,21 @@ public class MathOperationsServiceImpl implements MathOperationsService {
             }
         }
 
-        logger.info("Успешное нахождение минимального элемента массива.");
+        logger.info("Successfully finding the minimum element of an array.");
         return minElement;
     }
 
     @Override
     public int findSumOfElements(IntArray array) throws ArrayException {
-        logger.info("Попытка нахождения суммы элементов массива.");
+        logger.info("Attempt to find the sum of element of an array.");
         if(array == null) {
-            logger.error("Ошибка: Массив не может быть null.");
-            throw new ArrayException("Массив не может быть null.");
+            logger.error("Error: Array cannot be null. (findSunOfElements)");
+            throw new ArrayException("Error: Array cannot be null. (findSunOfElements)");
         }
         int[] intArray = array.getArray();
         if(intArray.length == 0) {
-            logger.error("Ошибка: Передан пустой массив.");
-            throw new ArrayException("Нельзя найти сумму элементов в пустом массиве.");
+            logger.error("\"Error: Empty array passed. (findSumOFElements)");
+            throw new ArrayException("Cannot find sum of elements in empty array. (findSumOfElements)");
         }
 
         int sumOfElements = 0;
@@ -77,7 +77,7 @@ public class MathOperationsServiceImpl implements MathOperationsService {
             sumOfElements += intArray[i];
         }
 
-        logger.info("Успешное нахождение суммы элементов массива.");
+        logger.info("Successfully finding the sum of elements in array.");
         return sumOfElements;
 
     }

@@ -12,10 +12,10 @@ public class SortServiceImpl implements SortService {
 
     @Override
     public IntArray bubbleSort(IntArray array) throws ArrayException {
-        logger.info("Попытка сортировки массива пузырьком");
+        logger.info("Trying to bubble sort an array");
         if (array == null) {
-            logger.error("Ошибка: Массив не может быть null.");
-            throw new ArrayException("Массив не может быть null.");
+            logger.error("Error: Array cannot be null. (bubbleSort)");
+            throw new ArrayException("Error: Array cannot be null. (bubbleSort)");
         }
 
         int buffer;
@@ -28,17 +28,17 @@ public class SortServiceImpl implements SortService {
                 }
             }
         }
-        logger.info("Массив успешно отсортирован пузырьком");
+        logger.info("The array was successfully bubble sorted.");
 
         return array;
     }
 
     @Override
     public IntArray selectionSort(IntArray array) throws ArrayException {
-        logger.info("Попытка сортировки массива выбором");
+        logger.info("Trying to sort an array using selection sort");
         if (array == null) {
-            logger.error("Ошибка: Массив не может быть null.");
-            throw new ArrayException("Массив не может быть null.");
+            logger.error("Error: Array cannot be null. (selectionSort)");
+            throw new ArrayException("Error: Array cannot be null. (selectionSort)");
         }
 
         int buffer;
@@ -55,7 +55,7 @@ public class SortServiceImpl implements SortService {
                 array.setElement(i, buffer);
             }
         }
-        logger.info("Массив успешно отсортирован выбором");
+        logger.info("The array was successfully sorted by selection.");
 
         return array;
     }

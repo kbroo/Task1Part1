@@ -11,16 +11,12 @@ public class ArrayFactoryImpl implements ArrayFactory {
 
     @Override
     public IntArray createIntArray(int[] array) throws ArrayException {
-        logger.info("Попытка создать массив.");
-
-        if(array == null) {
-            logger.error("Ошибка: Передан массив null.");
-            throw new ArrayException("Передан массив null.");
+        logger.info("Attemp to create an array.");
+        if (array == null) {
+            logger.error("Error: Null array passed.");
+            throw new ArrayException("Null array passed.");
         }
-
-        logger.info("Массив успешно создан.");
+        logger.info("The array was created successfully.");
         return new IntArray(array);
-
     }
-
 }

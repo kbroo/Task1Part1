@@ -4,7 +4,5 @@ import org.task.entity.IntArray;
 import org.task.exception.ArrayException;
 
 public interface ArrayFactory {
-
     IntArray createIntArray(int[] array) throws ArrayException;
-
 }

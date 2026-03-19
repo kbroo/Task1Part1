@@ -48,4 +48,26 @@ public class IntArray {
         logger.info("The value was passed to the array element with index {}", index);
         array[index] = element;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if(this == o) {
+            return true;
+        }
+        if(o == null) {
+            return false;
+        }
+        if (o.getClass().equals(this.getClass())) {
+            IntArray array = (IntArray) o;
+            if (this.getLength() == array.getLength()) {
+                for (int i = 0; i < array.getLength(); i++) {
+                    if (this.array[i] != array.array[i]) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+        return false;
+    }
 }

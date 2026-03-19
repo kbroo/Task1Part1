@@ -14,7 +14,6 @@ public class MathOperationsServiceTest {
     private final int MIN_ELEMENT = 1;
     private final int SUM_OF_ELEMENTS = 34;
     private final MathOperationsService mathOperation = new MathOperationsServiceImpl();
-
     private IntArray array;
 
     @BeforeEach

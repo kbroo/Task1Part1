@@ -1,12 +1,197 @@
-2026-03-16 21:46:21.554 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read data from file.
-2026-03-16 21:46:21.572 [main] INFO  org.task.reader.impl.FileReaderImpl - Data was successfully read from the file.
-2026-03-16 21:55:16.876 [main] INFO  org.task.reader.impl.FileReaderImpl - String was successfully read from the file.
-2026-03-16 21:55:16.897 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read data from file.
-2026-03-16 21:55:16.898 [main] INFO  org.task.reader.impl.FileReaderImpl - Data was successfully read from the file.
-2026-03-16 21:55:43.348 [main] INFO  org.task.reader.impl.FileReaderImpl - String was successfully read from the file.
-2026-03-16 21:56:16.302 [main] INFO  org.task.reader.impl.FileReaderImpl - String was successfully read from the file.
-2026-03-16 21:56:38.756 [main] INFO  org.task.reader.impl.FileReaderImpl - String was successfully read from the file.
-2026-03-16 21:57:11.123 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read certain string from file.
-2026-03-16 21:57:11.128 [main] INFO  org.task.reader.impl.FileReaderImpl - String was successfully read from the file.
-2026-03-16 21:57:11.144 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read data from file.
-2026-03-16 21:57:11.146 [main] INFO  org.task.reader.impl.FileReaderImpl - Data was successfully read from the file.
+2026-03-19 17:51:07.219 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:51:07.266 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:51:07.290 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:51:07.291 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:51:07.292 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:51:41.078 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:51:41.134 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:52:23.440 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:53:02.851 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:53:02.881 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:53:02.885 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:53:48.370 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:53:48.417 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:53:48.424 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:54:22.845 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:54:22.892 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:54:22.899 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:54:25.959 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:54:26.012 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:54:26.021 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:54:42.804 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:54:42.830 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:54:42.833 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:56:37.751 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read data from file.
+2026-03-19 17:56:37.756 [main] INFO  org.task.reader.impl.FileReaderImpl - Data was successfully read from the file.
+2026-03-19 17:56:56.954 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:56:56.991 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:56:56.997 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:57:14.361 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:57:14.397 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:57:14.403 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 17:57:57.015 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 17:57:57.050 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 17:57:57.057 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:00:01.099 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:00:01.133 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:00:01.139 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:02:03.613 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:02:03.647 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:02:03.654 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:06:36.371 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:06:36.405 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:06:36.410 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:06:50.090 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:06:50.123 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:06:50.129 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:15:21.564 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:15:21.596 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:15:21.602 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:26:57.618 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:26:57.654 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:26:57.660 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:30:27.579 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:30:27.613 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:30:27.619 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:32:17.459 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:32:17.506 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:32:17.514 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:36:28.997 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:36:29.031 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:36:29.038 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:36:44.722 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:36:44.766 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:36:44.772 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:37:41.469 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:37:41.502 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:37:41.508 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:38:05.659 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:38:05.690 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:38:05.697 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:38:38.683 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:38:38.719 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:38:38.724 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:39:02.044 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:39:02.091 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:39:02.099 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:39:28.608 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:39:28.652 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:39:28.659 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:40:56.142 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:40:56.177 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:40:56.183 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:42:10.046 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:42:10.081 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:42:10.088 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:42:31.917 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:42:31.950 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:42:31.955 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:43:24.695 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:43:24.733 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:43:24.741 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:43:57.905 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:43:57.951 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:43:57.958 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:45:32.233 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:45:32.266 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:45:32.272 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:46:20.513 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:46:20.549 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:46:20.557 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:50:42.380 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:50:42.415 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:50:42.422 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:51:00.516 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:53:04.810 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:53:04.856 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:53:04.866 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:53:09.980 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:53:14.877 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:53:14.922 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:53:14.930 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:53:29.489 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:53:34.238 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:53:34.272 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:53:34.277 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:53:44.118 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:53:44.154 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:53:44.161 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:54:18.119 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:54:18.160 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:54:18.167 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:54:26.668 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:54:49.841 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:54:49.884 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:54:49.889 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:54:49.890 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:57:10.834 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:57:10.862 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:57:10.866 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:57:10.866 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 18:57:16.774 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:57:16.804 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:57:16.815 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 18:58:13.798 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 18:58:13.825 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 18:58:13.834 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:10:51.110 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:10:51.148 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:10:51.159 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:13:08.003 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:13:08.036 [main] INFO  org.task.entity.IntArray - Create a new array with length: 4
+2026-03-19 19:13:08.045 [main] INFO  org.task.entity.IntArray - Attemp to get an array element with an index 10
+2026-03-19 19:13:08.045 [main] ERROR org.task.entity.IntArray - An index passed that is outside the array bounds. (getElement)
+2026-03-19 19:13:21.773 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:13:21.812 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:14:18.605 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:14:28.583 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:14:28.614 [main] INFO  org.task.entity.IntArray - Create a new array with length: 4
+2026-03-19 19:14:28.621 [main] INFO  org.task.entity.IntArray - Attemp to get an array element with an index 10
+2026-03-19 19:14:28.622 [main] ERROR org.task.entity.IntArray - An index passed that is outside the array bounds. (getElement)
+2026-03-19 19:14:50.321 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:14:50.356 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:14:50.364 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:15:37.503 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:15:37.551 [main] INFO  org.task.entity.IntArray - Create a new array with length: 4
+2026-03-19 19:15:37.568 [main] INFO  org.task.entity.IntArray - Attemp to get an array element with an index 10
+2026-03-19 19:15:37.569 [main] ERROR org.task.entity.IntArray - An index passed that is outside the array bounds. (getElement)
+2026-03-19 19:18:56.414 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:18:56.468 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:18:56.481 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:19:18.010 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:19:18.065 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:19:18.084 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:23:22.465 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:23:22.514 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:23:22.527 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:23:45.705 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:23:45.744 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:23:45.758 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:23:51.683 [main] ERROR org.task.parser.impl.CustomParserImpl - Error: get a uncorrect value.
+2026-03-19 19:24:00.007 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:24:00.043 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:24:00.053 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:24:00.054 [main] ERROR org.task.parser.impl.CustomParserImpl - Error: get a uncorrect value.
+2026-03-19 19:24:07.814 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:24:07.846 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:24:07.854 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:24:07.855 [main] ERROR org.task.parser.impl.CustomParserImpl - Error: get a uncorrect value.
+2026-03-19 19:24:07.877 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:24:07.877 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:24:07.878 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:24:07.878 [main] ERROR org.task.parser.impl.CustomParserImpl - Error: get a uncorrect value.
+2026-03-19 19:29:11.769 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:29:11.802 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:29:11.810 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:29:11.854 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:29:11.854 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:29:11.855 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:29:11.856 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.
+2026-03-19 19:29:57.551 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:29:57.589 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:29:57.600 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:29:57.601 [main] ERROR org.task.parser.impl.CustomParserImpl - Error: get a uncorrect value.
+2026-03-19 19:29:57.626 [main] INFO  org.task.entity.IntArray - Attemp to create array.
+2026-03-19 19:29:57.627 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
+2026-03-19 19:29:57.628 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
+2026-03-19 19:29:57.628 [main] INFO  org.task.parser.impl.CustomParserImpl - String was successfull parsed to int.

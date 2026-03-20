@@ -9,8 +9,7 @@ import org.task.exception.ArrayException;
 import org.task.parser.impl.CustomParserImpl;
 
 public class CustomParserTest {
-    private String CORRECT_STRING = "1; 6; 8; 9; 3; 63";
-    private String UNCORRECT_STRING = "1a; 5; 3; fdg";
+    private final String UNCORRECT_STRING = "1a; 5; 3; fdg";
     private final int[] CORRECT_ARRAY = {1, 6, 8, 9, 3, 63};
     private final CustomParserImpl parserToInt = new CustomParserImpl();
     private IntArray array;
@@ -22,6 +21,7 @@ public class CustomParserTest {
 
     @Test
     void shouldParseStringToIntWithoutErrors() throws ArrayException {
+        String CORRECT_STRING = "1; 6; 8; 9; 3; 63";
         int[] parsedStringToInt = parserToInt.parseStringToInt(CORRECT_STRING);
         Assertions.assertArrayEquals(array.getArray(), parsedStringToInt);
     }

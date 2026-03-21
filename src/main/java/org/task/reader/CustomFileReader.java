@@ -5,7 +5,7 @@ import org.task.exception.ArrayException;
 import java.nio.file.Path;
 import java.util.List;
 
-public interface FileReader {
+public interface CustomFileReader {
 
     List<String> readAllFile(Path path) throws ArrayException;
 

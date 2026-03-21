@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.task.validator.impl.CustomValidatorImpl;
 
 public class CustomValidatorTest {
-    private static CustomValidatorImpl customValidator = new CustomValidatorImpl();
+    private static final CustomValidatorImpl customValidator = new CustomValidatorImpl();
 
     @Test
     void shouldReturnTrueFromValidString() {
@@ -19,5 +19,19 @@ public class CustomValidatorTest {
         String UNCORRECT_STRING = "1a; 5; 3; fdg";
         boolean actualValues = customValidator.dataOfIntsIsValid(UNCORRECT_STRING);
         Assertions.assertFalse(actualValues);
+    }
+
+    @Test
+    void shouldReturnTrueFromValidElement() {
+        String element = "23";
+        boolean actualValue = customValidator.elementOfStingIsValid(element);
+        Assertions.assertTrue(actualValue);
+    }
+
+    @Test
+    void shouldReturnFalseFromInvalidElement() {
+        String element = "2asd";
+        boolean actualValue = customValidator.elementOfStingIsValid(element);
+        Assertions.assertFalse(actualValue);
     }
 }

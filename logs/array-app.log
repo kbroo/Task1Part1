@@ -21,8 +21,8 @@
 2026-03-19 17:54:42.804 [main] INFO  org.task.entity.IntArray - Attemp to create array.
 2026-03-19 17:54:42.830 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
 2026-03-19 17:54:42.833 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int
-2026-03-19 17:56:37.751 [main] INFO  org.task.reader.impl.FileReaderImpl - Attempting to read data from file.
-2026-03-19 17:56:37.756 [main] INFO  org.task.reader.impl.FileReaderImpl - Data was successfully read from the file.
+2026-03-19 17:56:37.751 [main] INFO  org.task.reader.impl.CustomFileReaderImpl - Attempting to read data from file.
+2026-03-19 17:56:37.756 [main] INFO  org.task.reader.impl.CustomFileReaderImpl - Data was successfully read from the file.
 2026-03-19 17:56:56.954 [main] INFO  org.task.entity.IntArray - Attemp to create array.
 2026-03-19 17:56:56.991 [main] INFO  org.task.entity.IntArray - Create a new array with length: 6
 2026-03-19 17:56:56.997 [main] INFO  org.task.parser.impl.CustomParserImpl - Attempting to parse string to int

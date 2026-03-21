@@ -30,7 +30,7 @@ public class CustomParserImpl implements CustomParser {
                 int writeIndex = 0;
                 for(int i = 0; i < strNumbers.length; i++) {
                     if(strNumbers[i] != "" && strNumbers[i] != " ") {
-                        if(strNumbers[i].matches("\\d+")) {
+                        if(fileValidator.elementOfStingIsValid(strNumbers[i])) {
                             array[writeIndex] = Integer.parseInt(strNumbers[i]);
                             writeIndex++;
                         } else {

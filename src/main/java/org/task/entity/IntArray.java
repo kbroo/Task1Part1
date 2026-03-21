@@ -4,6 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.task.exception.ArrayException;
 
+import java.util.Arrays;
+
 public class IntArray {
     private static final Logger logger = LogManager.getLogger(IntArray.class);
 
@@ -51,12 +53,14 @@ public class IntArray {
 
     @Override
     public boolean equals(Object o) {
-        if(this == o) {
+        if (this == o) {
             return true;
         }
-        if(o == null) {
+
+        if (o == null) {
             return false;
         }
+
         if (o.getClass().equals(this.getClass())) {
             IntArray array = (IntArray) o;
             if (this.getLength() == array.getLength()) {
@@ -69,5 +73,15 @@ public class IntArray {
             }
         }
         return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(this.array);
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(this.array);
     }
 }

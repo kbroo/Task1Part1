@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.task.exception.ArrayException;
-import org.task.reader.impl.FileReaderImpl;
+import org.task.reader.impl.CustomFileReaderImpl;
 
 import java.nio.file.Path;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class FileReaderTest {
     private final Path DATA = Path.of("data\\arrays.txt");
-    private final FileReaderImpl customFileReader = new FileReaderImpl();
+    private final CustomFileReaderImpl customFileReader = new CustomFileReaderImpl();
     private List<String> file;
     private String certainString;
 
